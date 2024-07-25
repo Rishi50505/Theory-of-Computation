@@ -1,0 +1,29 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {158 283}
+	}
+	state {
+		coord {395 284}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.7004988639508087}
+	}
+	label {
+		text {Rishivarathan 192210601}
+		font {SansSerif 12 -}
+		coord {149 91}
+	}
+	label {
+		text {l=\{a*/ number of a>=0\}}
+		font {SansSerif 12 -}
+		coord {155 140}
+	}
+}

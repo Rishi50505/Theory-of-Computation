@@ -1,0 +1,70 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {399 337}
+	}
+	state {
+		coord {604 335}
+	}
+	state {
+		final {yes}
+		coord {806 332}
+	}
+	edge 0 0 {
+		transits {b}
+		offset {1.5707963267948966}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.6252877830356278}
+	}
+	edge 2 2 {
+		transits {ab}
+		offset {1.6262948320406136}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	label {
+		text {Rishivarathan 192210601}
+		font {SansSerif 12 -}
+		coord {431 96}
+	}
+	label {
+		text {Substring ab'}
+		font {SansSerif 12 -}
+		coord {432 128}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {509 124}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {507 123}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {491 126}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {500 126}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {519 214}
+	}
+}

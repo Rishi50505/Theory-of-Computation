@@ -1,0 +1,53 @@
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {426 292}
+	}
+	state {
+		coord {605 292}
+	}
+	state {
+		coord {789 295}
+	}
+	state {
+		final {yes}
+		coord {975 299}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 1 2 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {1.4659193880646628}
+	}
+	edge 3 1 {
+		transits {a}
+		offset {0.7559067163902804}
+	}
+	label {
+		text {Riishivarathan 192210601}
+		font {SansSerif 12 -}
+		coord {461 103}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {463 131}
+	}
+	label {
+		text {Triplets of a's}
+		font {SansSerif 12 -}
+		coord {463 134}
+	}
+}
