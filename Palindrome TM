@@ -1,0 +1,152 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {106 260}
+	}
+	state {
+		coord {309 161}
+	}
+	state {
+		coord {482 172}
+	}
+	state {
+		coord {631 200}
+	}
+	state {
+		coord {269 388}
+	}
+	state {
+		coord {489 456}
+	}
+	state {
+		final {yes}
+		coord {501 303}
+	}
+	state {
+		coord {634 480}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.8070415875133343}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.6897966201776766}
+		direction {R}
+		output {b}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.587373785807955}
+		direction {R}
+		output {_}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {-0.9214713715466036}
+		direction {R}
+		output {c}
+	}
+	edge 0 4 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {c}
+	}
+	edge 4 5 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 4 4 {
+		transits {b}
+		offset {0.9532940866478229}
+		direction {R}
+		output {b}
+	}
+	edge 4 4 {
+		transits {a}
+		offset {-1.7011996346840301}
+		direction {R}
+		output {a}
+	}
+	edge 5 6 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 2 6 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-1.3558587068876133}
+		direction {R}
+		output {b}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {0.6475910655379813}
+		direction {R}
+		output {a}
+	}
+	edge 7 7 {
+		transits {a}
+		offset {1.2856785916223004}
+		direction {L}
+		output {a}
+	}
+	edge 7 7 {
+		transits {b}
+		offset {-1.658291667597288}
+		direction {L}
+		output {b}
+	}
+	edge 5 7 {
+		transits {b}
+		offset {0.5170734888625437}
+		direction {L}
+		output {_}
+	}
+	edge 7 0 {
+		transits {c}
+		offset {1.276781208673762}
+		direction {R}
+		output {c}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {21 3}
+	}
+	label {
+		text {Rishiavarathan 192210601}
+		font {SansSerif 12 -}
+		coord {175 35}
+	}
+	label {
+		text {Palindrome}
+		font {SansSerif 12 -}
+		coord {175 67}
+	}
+}

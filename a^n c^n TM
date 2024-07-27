@@ -1,0 +1,105 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {138 258}
+	}
+	state {
+		coord {352 234}
+	}
+	state {
+		coord {590 240}
+	}
+	state {
+		coord {184 476}
+	}
+	state {
+		final {yes}
+		coord {423 471}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.6909050623618096}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {d}
+		offset {-1.5707963267948966}
+		direction {R}
+		output {d}
+	}
+	edge 2 2 {
+		transits {a}
+		offset {1.4583691959647065}
+		direction {R}
+		output {a}
+	}
+	edge 2 2 {
+		transits {}
+		offset {-1.7282131995214873}
+		direction {R}
+	}
+	edge 2 0 {
+		transits {c}
+		offset {7.0891598610772455}
+		direction {R}
+		output {c}
+	}
+	edge 0 3 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 3 3 {
+		transits {d}
+		offset {2.356194490192345}
+		direction {R}
+		output {d}
+	}
+	edge 3 4 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	label {
+		text {Rishivarathan 192210601}
+		font {SansSerif 12 -}
+		coord {171 47}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {171 79}
+	}
+	label {
+		text {a^n b^n}
+		font {SansSerif 12 -}
+		coord {172 75}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {233 194}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {271 586}
+	}
+}

@@ -1,0 +1,88 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {94 276}
+	}
+	state {
+		coord {301 266}
+	}
+	state {
+		coord {496 259}
+	}
+	state {
+		coord {698 256}
+	}
+	state {
+		coord {188 481}
+	}
+	state {
+		final {yes}
+		coord {453 482}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.6233793884058385}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {d}
+		offset {-1.464060654145761}
+		direction {R}
+		output {d}
+	}
+	edge 0 4 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 4 5 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 4 4 {
+		transits {d}
+		offset {-1.750649826587375}
+		direction {R}
+		output {d}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	label {
+		text {RIshivarathan 192210601}
+		font {SansSerif 12 -}
+		coord {163 76}
+	}
+	label {
+		text {a^n b^2n}
+		font {SansSerif 12 -}
+		coord {168 115}
+	}
+}

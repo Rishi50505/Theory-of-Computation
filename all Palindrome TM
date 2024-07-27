@@ -1,0 +1,243 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {118 232}
+	}
+	state {
+		coord {284 130}
+	}
+	state {
+		coord {508 124}
+	}
+	state {
+		coord {738 124}
+	}
+	state {
+		coord {274 360}
+	}
+	state {
+		coord {536 350}
+	}
+	state {
+		coord {758 333}
+	}
+	state {
+		final {yes}
+		coord {514 234}
+	}
+	state {
+		final {yes}
+		coord {60 74}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {-0.47958251510688243}
+		direction {R}
+		output {c}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5073305364085916}
+		direction {L}
+		output {_}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {-0.9316899939569221}
+		direction {R}
+		output {c}
+	}
+	edge 4 5 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 5 6 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 0 4 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 6 0 {
+		transits {c}
+		offset {1.021958391758572}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {-0.9994588469612699}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-3.099950074491205}
+		direction {R}
+		output {b}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {0.9561333748727311}
+		direction {L}
+		output {a}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-1.2597980461893556}
+		direction {L}
+		output {b}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {1.0729739941778955}
+		direction {L}
+		output {a}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {-1.2554422736448645}
+		direction {L}
+		output {b}
+	}
+	edge 4 4 {
+		transits {a}
+		offset {1.1273479903751584}
+		direction {R}
+		output {a}
+	}
+	edge 4 4 {
+		transits {b}
+		offset {-0.5667292175235064}
+		direction {R}
+		output {b}
+	}
+	edge 2 7 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 5 7 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 0 8 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {112 229}
+	}
+	label {
+		text {q0}
+		font {SansSerif 12 -}
+		coord {106 235}
+	}
+	label {
+		text {q1}
+		font {SansSerif 12 -}
+		coord {272 128}
+	}
+	label {
+		text {q2}
+		font {SansSerif 12 -}
+		coord {507 124}
+	}
+	label {
+		text {q3}
+		font {SansSerif 12 -}
+		coord {728 123}
+	}
+	label {
+		text {q4}
+		font {SansSerif 12 -}
+		coord {269 367}
+	}
+	label {
+		text {q5}
+		font {SansSerif 12 -}
+		coord {532 356}
+	}
+	label {
+		text {q6}
+		font {SansSerif 12 -}
+		coord {750 342}
+	}
+	label {
+		text {q7}
+		font {SansSerif 12 -}
+		coord {506 238}
+	}
+	label {
+		text {HALT}
+		font {SansSerif 12 -}
+		coord {541 232}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {604 158}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {627 158}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {899 218}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1018 30}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1018 33}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1010 29}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1015 30}
+	}
+	label {
+		text {q8}
+		font {SansSerif 12 -}
+		coord {52 80}
+	}
+	label {
+		text {54.TM to accept all palindrome strings of all length over the set \{a,b\}}
+		font {SansSerif 12 -}
+		coord {840 44}
+	}
+}
